@@ -3,25 +3,43 @@
 //se il numero è divisibile per 5, scrivo in console BUZZ
 //se il numeroè divisibile per entrambi, scrivo in console FIZZBUZZ
 
-// prompt("inserire un numero");
+// const numeroInStringa = prompt('inserisci un numero');
 
-const numero = parseFloat(prompt("inserire un numero"));
+// const numero = parseFloat(numeroInStringa);
 
-const divisibilePerTre = numero % 3 === 0
+// const isDivisibilePerTre = numero % 3 === 0;
 
-const divisibilePerCinque = numero % 5 === 0
+// const isDivisibilePerCinque = numero % 5 === 0;
 
-const divisibilePerQuindici = numero % 15 === 0
+// if (isDivisibilePerTre && isDivisibilePerCinque) {
+//     console.log ("FIZZBUZZ");
+// }
+// else if (isDivisibilePerQuindici) {
+//     console.log ("BUZZ");
+// }
+// else if (isDivisibilePerTre) {
+//     console.log ("FIZZ");
+// }
 
 
-if (divisibilePerTre) {
-    console.log ("FIZZ");
+
+
+const numeroInStringa = prompt('inserisci un numero');
+
+const numero = parseFloat(numeroInStringa);
+
+const isDivisibilePerTre = numero % 3 === 0;
+
+const isDivisibilePerCinque = numero % 5 === 0;
+
+let result = '';
+
+if (isDivisibilePerTre) {
+    result = result + 'FIZZ';
 }
-
-if (divisibilePerCinque) {
-    console.log ("BUZZ");
+if (isDivisibilePerCinque) {
+    result = result + 'BUZZ';
 }
+console.log(result);
 
-if (divisibilePerQuindici) {
-    console.log ("FIZZBUZZ");
-}
+

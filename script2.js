@@ -101,10 +101,52 @@ if (isDivisibilePerQuattro) {
     console.log ("il numero non è divisibile per nessuno dei divisori selezionati");
     }
 
-//chiedo all'utente di inserire un numero 
-//se il numero è divisibile per 3, scrivo in console FIZZ
-//se il numero è divisibile per 5, scrivo in console BUZZ
-//se il numeroè divisibile per entrambi, scrivo in console FIZZBUZZ
+
+
+
+const vocaleScelta = prompt('ciao, scegli una vocale');
+
+switch (vocaleScelta) {
+    case "a":
+    console.log('a come alce');
+    break;
+    case "e":
+    console.log('e come elefante');
+    break;
+    case "i":
+     console.log('i come istrice');
+    break;
+     case "o":
+    console.log('o come orso');
+    break;
+    case "u":
+    console.log('u come upupa');
+    break;
+    default:
+    console.log('torna a studiare!');
+    break;
+}
+
+// const isA = vocaleScelta === 'a';
+// const isE = vocaleScelta === 'e';
+// const isI = vocaleScelta === 'i';
+// const isO = vocaleScelta === 'o';
+// const isU = vocaleScelta === 'u';
+
+// if (isA) {
+//     console.log('a come albicocca');
+// } else if (isE) {
+//     console.log('e come elefante');
+// } else if (isI) {
+//     console.log('i come istrice');
+// } else if (isO) {
+//     console.log('o come orso');
+// } else if (isU) {
+//     console.log('u come upupa');
+// } else {
+//     console.log('torna a studiare!')
+// }
+
 
 
 

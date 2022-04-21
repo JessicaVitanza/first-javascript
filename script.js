@@ -86,11 +86,57 @@ console.log("'7' === '7'", '7'==='7');
 
 console.log("'7' === '8'", '7'==='8');
 
+//operatore di diversità
+
+const brontolone = 5;
+
+const puffetta = 9;
+
+const sonoDiversi = !(brontolone === puffetta);
+
+const sonoDiversi2 = brontolone !== puffetta;
+
+//operatori di maggiore e minore
+
+const minore = brontolone < puffetta;
+
+const maggiore = brontolone > puffetta; 
+
+const minoreOUguale = brontolone <= puffetta;
+
+const maggioreOUuale = brontolone >= puffetta;  
+
 //complicazioni
 
 console.log("'7' === 7", '7'=== 7);
 
 console.log("'7' == 7", '7'== 7);
+
+//undefined
+
+let grandePuffo;
+
+console.log('lod di grandePuffo', grandePuffo);
+
+//null
+
+let quattrocchi = null;
+
+console.log('lod di quattrocchi', quattrocchi);
+
+//NaN
+
+let numeroSbaglato = 'cinque';
+
+let numero = parseInt(numeroSbaglato);
+
+console.log('numeroSbagliato', numero);
+
+//infinity
+
+const infinitoPositivo = +Infinity;
+
+const infinitoNegativo = -Infinity;
 
 //variabili
 //let
@@ -145,6 +191,15 @@ const stringa2 = prompt("inserisci la seconda stringa");
 // console.log(stringa1+stringa2);
 
 alert(stringa1+stringa2)
+
+//camel case
+
+let laMiaVariabileDiEsempio;
+
+const LA MIA IMPORTANTISSIMA COSTANTE = 3.14;
+
+
+
 
 
 
